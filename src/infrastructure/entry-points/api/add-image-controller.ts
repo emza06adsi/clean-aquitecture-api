@@ -11,11 +11,6 @@ export class AddImageController {
     ) {
     }
 
-    // Example function
-    @Get()
-    async getWelcome(): Promise<any> {
-        return 'Welcome to the world of clean architecture'
-    }
 
     @Post()
     async addImageController(@Body() data: AddImageParams): Promise<ImageModel> {
