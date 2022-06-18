@@ -1,7 +1,8 @@
 export enum ImageType {
   ANIME = "ANIME",
-  ACCESS = "ACCESS",
-  
+  ACCESSORIES = "ACCESSORIES",
+  DESSING = "DESSING",
+  KIMONO = "KIMONO",
 }
 
 export type UrlModel = {
